@@ -1,5 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --db-primary: #
+}
+
+/* #region debug */
+.debug .header {
+    background-color: blueviolet;
+}
+
+.debug [class^="col"] {
+    height: 100px;
+    border: 1px dashed;
+}
+
+.debug .sidebar {
+    background-color: black;
+}
+
+/* #endregion debug */
+
+/* #region header */
+.header {
+    height: 100px;
+}
+
+/* #endregion header */
+
+
+/* #region main */
+.main {
+    height: calc(100vh - 70px);
+    display: flex;
+}
+
+
+.main .sidebar {
+    width: 70px;
+}
+
+/* #endregion main */
