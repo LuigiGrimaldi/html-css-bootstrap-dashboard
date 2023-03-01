@@ -5,7 +5,9 @@
 }
 
 :root{
-    --db-primary: #
+    --db-header: #1b72e8;
+    --db-sidebar-top: #051e34;
+    --db-sidebar-bottom: #10283d;
 }
 
 /* #region debug */
@@ -18,15 +20,43 @@
     border: 1px dashed;
 }
 
+.debug .content{
+    background-color: orange;
+}
+
 .debug .sidebar {
     background-color: black;
+}
+
+.debug .sidebar-top {
+    background-color: yellow;
+}
+
+.debug .banner{
+    background-color: darkcyan;
+}
+
+.debug .corp{
+    background-color: darkgreen;
 }
 
 /* #endregion debug */
 
 /* #region header */
 .header {
-    height: 100px;
+    height: 70px;
+}
+
+.header nav{
+    width: 400px;
+}
+
+.header img{
+    width: 50px;
+}
+
+.src{
+    width: 400px;
 }
 
 /* #endregion header */
@@ -38,9 +68,21 @@
     display: flex;
 }
 
+.main .content{
+    width: calc(100% - 70px);
+    height: 100%;
+}
 
 .main .sidebar {
     width: 70px;
+}
+
+.main .sidebar-top{
+    height: 30%;
+}
+
+.main .banner{
+    height: 40%;
 }
 
 /* #endregion main */
