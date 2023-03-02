@@ -75,7 +75,7 @@
     height: 30%;
 }
 
-.sidebar-top ul{
+.sidebar-top .item{
     color: white;
     list-style: none;
     text-decoration: none;
