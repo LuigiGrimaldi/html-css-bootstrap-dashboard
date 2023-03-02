@@ -75,7 +75,11 @@
     height: 30%;
 }
 
-.sidebar-top .item{
+.main .sidebar-bottom{
+    height: 70%;
+}
+
+.sidebar .item{
     color: white;
     list-style: none;
     text-decoration: none;
