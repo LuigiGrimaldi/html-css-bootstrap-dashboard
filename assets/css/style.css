@@ -12,6 +12,7 @@
 
 /* #region debug */
 .debug .header {
+    height: 70px;
     background-color: blueviolet;
 }
 
@@ -44,7 +45,7 @@
 
 /* #region header */
 .header {
-    height: 70px;
+    display: flex;
 }
 
 .header nav{
