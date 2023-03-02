@@ -75,6 +75,12 @@
     height: 30%;
 }
 
+.sidebar-top ul{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
 .main .banner{
     background-color: var(--db-header);
     height: 40%;
