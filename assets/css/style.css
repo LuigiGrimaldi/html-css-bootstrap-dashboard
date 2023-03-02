@@ -48,16 +48,8 @@
     display: flex;
 }
 
-.header nav{
-    width: 400px;
-}
-
 .header img{
     width: 50px;
-}
-
-.src{
-    width: 400px;
 }
 
 /* #endregion header */
@@ -65,7 +57,7 @@
 
 /* #region main */
 .main {
-    height: calc(100vh - 70px);
+    height: 100vh;
     display: flex;
 }
 
@@ -75,6 +67,7 @@
 }
 
 .main .sidebar {
+    background-image: url(../img/sidebar-bg.png);
     width: 70px;
 }
 
@@ -83,6 +76,7 @@
 }
 
 .main .banner{
+    background-color: var(--db-header);
     height: 40%;
 }
 
