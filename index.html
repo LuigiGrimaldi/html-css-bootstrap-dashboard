@@ -1,105 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>bootstrap dashboard</title>
-        <!-- Css Bootstrap -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-            crossorigin="anonymous">
 
-        <!-- Fontawesome  -->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap dashboard</title>
+    <!-- Css Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-        <!-- My Css -->
-        <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    </head>
-    <body class="">
+    <!-- My Css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body class="">
 
 
-        <div class="header">
-            <img src="./assets/img/mobile-logo.png" alt="">
-            <div class="input-group my-1">
-                <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Recipient's username"
-                    aria-describedby="basic-addon2">
+    <div class="header p-2">
+        <img src="./assets/img/mobile-logo.png" alt="">
+        <div class="input-group my-1">
+            <input type="text" class="form-control me-3" placeholder=" Prova a cercare: Lezioni di Laravel" aria-label="Recipient's
+                    username" aria-describedby="basic-addon2">
+        </div>
+        <div class="bell p-1 mt-2 link-warning"><i class="fas fa-bell"></i></div>
+    </div>
+    <!-- .header -->
+
+
+    <div class="main">
+        <div class="sidebar bg-dark">
+            <div class="sidebar-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col mt-4">
+                            <div class="item text-center mt-2"><i class="fa-solid f fa-house"></i></div>
+                            <div class="item text-center mt-2"><i class="fa-solid fa-chart-simple"></i></div>
+                            <div class="item text-center mt-2"><i class="fa-solid fa-signal"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-bottom d-flex justify-content-center">
+                <div class="item text-center d-flex align-items-end mb-4"><i class="fa-solid fa-gear"></i></div>
             </div>
         </div>
-        <!-- .header -->
-        
-
-        <div class="main">
-            <div class="sidebar bg-dark">
-                <div class="sidebar-top">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <div class="item text-center mt-2"><i class="fa-solid f fa-house"></i></div>
-                                <div class="item text-center mt-2"><i class="fa-solid f fa-house"></i></div>
-                                <div class="item text-center mt-2"><i class="fa-solid fa-signal"></i></div>
-                            </div>
-                            </div>
+        <!-- Sidebar -->
+        <div class="content">
+            <div class="banner">
+                <div class="container">
+                    <div class="row row-cols-1 text-light g-4 pt-4">
+                        <div class="col">
+                            <h4>Nuovo Studente</h4>
+                        </div>
+                        <div class="col">
+                            <h2 class="text-uppercase">Boolean</h2>
+                        </div>
+                        <div class="col">
+                            <h4>Studenti online negli ultimi 30 minuti</h4>
                         </div>
                     </div>
-                <div class="sidebar-bottom d-flex justify-content-center">
-                   <div class="item text-center d-flex align-items-end mb-4"><i class="fa-solid fa-gear"></i></div>
                 </div>
             </div>
+            <!-- Content -->
+            <div class="corp">
+                <div class="container">
+                    <div class="row row-cols-1 g-3">
+                        <div class="col">
 
-            <div class="content">
-                <div class="banner">
-                    <div class="container">
-                        <div class="row row-cols-1">
-                            <div class="col">
-
-                            </div>
-                            <div class="col">
-
-                            </div>
-                            <div class="col">
-
-                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="corp">
-                    <div class="container">
-                        <div class="row row-cols-1 g-3">
-                            <div class="col">
+                        <div class="col">
 
-                            </div>
-                            <div class="col">
+                        </div>
+                        <div class="col">
 
-                            </div>
-                            <div class="col">
-
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- /.main -->
-
-
-
+    <!-- /.main -->
 
 
 
 
 
-        <!-- Script Bootstrap Bundle -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            crossorigin="anonymous"></script>
-    </body>
+
+
+
+    <!-- Script Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
